@@ -1,0 +1,143 @@
+<html>
+<head>
+<link rel="stylesheet" href="stylesheet.css">
+<title>Home</title>
+<style>
+body {
+  margin: 0;
+  box-shadow: 3px 7px #555549;
+  padding: 14px 16px;
+  text-shadow: 2px 2px 5px gray;
+}
+/* Center website */
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+h1 {
+  font-size: 50px;
+  word-break: break-all;
+}
+.row {
+  margin: 8px -16px;
+}
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+  padding: 5px;
+}
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+}
+/* Clear floats after rows */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* Content */
+.content {
+  background-color: #5E6A6E;
+  padding: 10px;
+
+  box-shadow: 5px 5px #555549;
+}
+</style>
+</head>
+<body>
+  <ul>
+    <li style="float: left"><a href="Home.html">Home</a></li>
+    <li style="float: left"><a href="Pictures.html">Pictures</a></li>
+    <li style="float: left"><a href="Location.html">Locations</a></li>
+    <li style="float: left"><a href="Reviews.html">Review</a></li>
+    <li style="float: right";><a href="AboutUs.html">About Us</a></li>
+    <li style="float: right";>
+      <img src="logo.jpg" height="43" width= "43" alt="logo"></li>
+  </ul><br><br>
+  <!--Bottom logo div-->
+  <div id="bottomdiv">
+    <img src="logo.jpg" alt="Taco Logo" height="43" width= "43">
+  </div>
+
+
+<!-- MAIN (Center website) -->
+<div class="main">
+
+<h1><i>"Home Cook'n"</i></h1>
+<hr>
+
+<h2>Our Menu</h2>
+<a href="https://www.thespruceeats.com/ingredients-used-in-mexican-food-2342811">Our ingredients(Click Here).</a><br><br>
+
+<!-- Portfolio Gallery Grid -->
+
+<div class="content">
+  <img src="menu.jpg" style="width:100%" alt="menu">
+  <h3 align="center">Menu</h3>
+  </div>
+<div class="row">
+  <div class="column">
+    <div class="content">
+      <img src="taco.jpg"style="width:100%" alt="taco">
+      <h3>Tacos</h3>
+      <p>Hard-shell tacos This type of taco is typically served as a crisp-fried corn tortilla filled with seasoned ground beef, cheese, lettuce, and sometimes tomato, onion, salsa, sour cream, and avocado or guacamole.</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <img src="nachos.jpg"style="width:100%" alt="nachos">
+      <h3>Nachos</h3>
+      <p>Nachos is a Tex-Mex dish from northern Mexico that consists of heated tortilla chips or totopos covered with melted cheese, often served as a snack or appetizer. More elaborate versions of the dish include other ingredients, and may be substantial enough to serve as a main dish</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <img src="tostadas.jpg"style="width:100%" alt="tostadas">
+      <h3>Tostadas</h3>
+      <p>Tostada is a Spanish word meaning "toasted". In Mexico and other parts of Latin America, it is the name of various local dishes which are toasted or use a toasted ingredient as the main base of their preparation. Tostada usually refers to a flat or bowl-shaped tortilla that is deep fried or toasted.</p>
+    </div>
+  </div>
+</div>
+<div class="row">
+  <div class="column">
+    <div class="content">
+    <img src="enchiladas.jpg"style="width:100%" alt="enchiladas">
+      <h3>Enchiladas</h3>
+      <p>An enchilada is a corn tortilla rolled around a filling and covered with a savory sauce. Enchiladas can be filled with a variety of ingredients, including various meats, cheese, beans, potatoes, vegetables or combinations.</p>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="content">
+    <img src="quesadilla.jpg"style="width:100%" alt="quesadilla">
+      <h3>Quesadilla</h3>
+      <p>A quesadilla is a Mexican dish, different from a taco, consisting of a tortilla that is filled primarily with cheese, and sometimes meats, beans, and spices, and then cooked on a griddle.</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+      <ol>
+        <h3>Ingredients:</h3>
+        <li>Chicken</li>
+        <li>Beans</li>
+        <li>Chile Peppers</li>
+        <li>Corn</li>
+        <li>Avocado</li>
+        <li>Fats</li>
+        <li>Herbs</li>
+        <li>Cheese</li>
+        <li>Tomatos</li>
+      </ol>
+    </div>
+  </div>
+</div>
+
+<!-- END GRID -->
+
+<!-- END MAIN -->
+</div>
+
+</body>
+</html>

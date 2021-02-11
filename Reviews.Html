@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="stylesheet.css">
+    <title>Review</title>
+    <style>
+    body {
+      margin: 0;
+      padding: 14px 16px;
+      text-shadow: 2px 2px 5px gray;
+    }
+    /* Center website */
+    .main {
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    </style>
+  </head>
+  <body align="center">
+    <!-- Fixed Menu for all pages -->
+    <ul>
+      <li style="float: left"><a href="Home.html">Home</a></li>
+      <li style="float: left"><a href="Pictures.html">Pictures</a></li>
+      <li style="float: left"><a href="Location.html">Locations</a></li>
+      <li style="float: left"><a href="Reviews.html">Review</a></li>
+      <li style="float: right";><a href="AboutUs.html">About Us</a></li>
+      <li style="float: right";>
+        <img src="logo.jpg" height="43" width= "43"></li>
+    </ul><br><br>
+    <div id="bottomdiv">
+      <img src="logo.jpg" alt="Taco Logo" height="43" width= "43">
+    </div>
+    <div class="main">
+    <h1 style="color: #889C5C"; >Write a Review</h1>
+    <hr><br><br>
+  </div>
+<table align="center">
+  <tr><td>
+
+
+    <form class="" action="http://www.websitedevelopmentbook.com/FormEcho.php"
+     method="post">
+      Name: <input type="input" name="Name"><br>
+      E-mail: <input type="input" name="Name"><br>
+      Gender:<br>
+      Male<input type="radio" name="gender" value="Male">
+      Female<input type="radio" name="gender" value="Female">
+      Non Binary<input type="radio" name="gender" value="Non Binary"
+      checked><br>
+
+      Review submission:<br>
+      Yelp <input type="checkbox" name="Location" value="Yelp">
+      Facebook <input type="checkbox" name="Location" value="Facebook">
+      Google <input type="checkbox" name="Location" value="Google">
+      Email <input type="checkbox" name="Location" value="Email">
+      Groupon <input type="checkbox" name="Location" value="Groupon"><br>
+
+      Location:<select class="" name="Location">
+        <option>Brooklyn</option>
+        <option>Bronx</option>
+        <option>Queens</option>
+        <option>Manhattan</option>
+        <option>Staten Island</option>
+      </select><br>
+
+      Review:<textarea name="Review" rows="8" cols="50"></textarea><br>
+      <input type="submit" value="Submit Review"><input type="reset" name="" value="reset">
+    </form><br>
+  </td></tr>
+  </table>
+    <h1>Click images to see Reviews!</h1>
+    <a href="https://www.yelp.com/search?find_desc=Mexican+Food&find_loc=Brooklyn%2C+NY">
+      <img src="YelpReview.png"></a><br>
+      <h2>Click image for Groupon Discounts!</h2>
+      <a href="https://www.groupon.com/local/mexican-restaurants">
+      <img src="groupon.png" alt=""></a>
+  </body>
+</html>

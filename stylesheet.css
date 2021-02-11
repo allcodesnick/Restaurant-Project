@@ -1,0 +1,84 @@
+html {
+  background: url("bg7.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #5E6A6E;
+  color:#889C5C;
+  text-shadow: 2px 2px 5px gray;
+  box-shadow: 3px 7px #555549;
+}
+
+li a {
+  display: block;
+  font-weight: bold;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: gray;
+}
+
+form{
+  background-position: center;
+}
+h1{
+  color:#889C5C;
+  text-shadow: 2px 2px 5px gray;
+}
+h2{
+  color: #889C5C;
+  background-size: 70;
+  font-size: 200%;
+}
+h3{
+  color: #889C5C;
+  background-position: center;
+}
+
+table{
+  border-collapse: collapse;
+  border-spacing: 15px;
+  color:DAF020;
+  text-shadow: 2px 2px 5px gray;
+  font-size: 150%;
+  box-shadow: 5px 10px #555549;
+}
+div#bottomdiv{
+  padding:3px;
+  position:fixed;
+  bottom: 0px;
+  right: 0px;
+  color: #889C5C;
+}
+a{
+  background-color: #5E6A6E;
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid gray;
+  border-radius: 5px;
+  padding: 2px;
+  max-width: 100%;
+}
+th,td {
+  border: 1px solid black;
+  padding: 8px;
+  background-color: #5E6A6E
+}
